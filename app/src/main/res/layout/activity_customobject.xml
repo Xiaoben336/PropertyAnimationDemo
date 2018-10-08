@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.zjf.propertyanimationdemo.view.MyView
+    <com.example.zjf.propertyanimationdemo.view.CustomObjectView
+        android:id="@+id/customObjectView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

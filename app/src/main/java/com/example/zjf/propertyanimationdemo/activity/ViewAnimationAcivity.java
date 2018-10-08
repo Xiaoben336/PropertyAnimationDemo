@@ -1,10 +1,12 @@
-package com.example.zjf.propertyanimationdemo;
+package com.example.zjf.propertyanimationdemo.activity;
 
 import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.Button;
+
+import com.example.zjf.propertyanimationdemo.R;
 
 public class ViewAnimationAcivity extends Activity {
     private Button btnPropetyAnimation;

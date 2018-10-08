@@ -16,8 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ViewAnimationAcivity"/>
-        <activity android:name=".PointAnimationActivity"/>
+        <activity android:name=".activity.ViewAnimationAcivity"/>
+        <activity android:name=".activity.PointAnimationActivity"/>
+        <activity android:name=".activity.CustomObjectActivity"/>
     </application>
 
 </manifest>

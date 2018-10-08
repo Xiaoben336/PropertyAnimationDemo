@@ -1,8 +1,10 @@
-package com.example.zjf.propertyanimationdemo;
+package com.example.zjf.propertyanimationdemo.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+
+import com.example.zjf.propertyanimationdemo.R;
 
 public class PointAnimationActivity extends Activity {
     @Override

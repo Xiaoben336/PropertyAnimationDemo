@@ -1,6 +1,8 @@
-package com.example.zjf.propertyanimationdemo;
+package com.example.zjf.propertyanimationdemo.evaluator;
 
 import android.animation.TypeEvaluator;
+
+import com.example.zjf.propertyanimationdemo.Point;
 
 public class PointEvaluator implements TypeEvaluator {
 

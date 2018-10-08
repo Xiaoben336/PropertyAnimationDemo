@@ -1,23 +1,27 @@
 package com.example.zjf.propertyanimationdemo;
 
-import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.zjf.propertyanimationdemo.activity.CustomObjectActivity;
+import com.example.zjf.propertyanimationdemo.activity.PointAnimationActivity;
+import com.example.zjf.propertyanimationdemo.activity.ViewAnimationAcivity;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    private Button btnViewAnimation,btnPointAnimation;
+    private Button btnViewAnimation,btnPointAnimation,btnCustomObject;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btnViewAnimation = (Button)findViewById(R.id.btnViewAnimation);
         btnPointAnimation = (Button)findViewById(R.id.btnPointAnimation);
+        btnCustomObject = (Button)findViewById(R.id.btnCustomObject);
         btnViewAnimation.setOnClickListener(this);
         btnPointAnimation.setOnClickListener(this);
+        btnCustomObject.setOnClickListener(this);
     }
 
     @Override
@@ -32,6 +36,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent.setClass(MainActivity.this,PointAnimationActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.btnCustomObject:
+                intent.setClass(MainActivity.this,CustomObjectActivity.class);
+                startActivity(intent);
                 default:
                     break;
         }

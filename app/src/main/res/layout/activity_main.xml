@@ -18,4 +18,9 @@
         android:layout_height="wrap_content"
         android:text="PointAnimation"/>
 
+    <Button
+        android:id="@+id/btnCustomObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomObject"/>
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.zjf.propertyanimationdemo;
+package com.example.zjf.propertyanimationdemo.view;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -8,6 +8,9 @@ import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.example.zjf.propertyanimationdemo.Point;
+import com.example.zjf.propertyanimationdemo.evaluator.PointEvaluator;
 
 public class MyView extends View {
     // 设置需要用到的变量
