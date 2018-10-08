@@ -19,6 +19,7 @@
         <activity android:name=".activity.ViewAnimationAcivity"/>
         <activity android:name=".activity.PointAnimationActivity"/>
         <activity android:name=".activity.CustomObjectActivity"/>
+        <activity android:name=".activity.AnimatorSetActivity"/>
     </application>
 
 </manifest>

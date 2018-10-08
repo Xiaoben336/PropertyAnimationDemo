@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -11,10 +11,10 @@
         android:layout_gravity="center_horizontal">
 
         <Button
-            android:id="@+id/btnPropetyAnimation"
+            android:id="@+id/btnAnimatorSet"
             android:layout_width="150px"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="动画"/>
+            android:text="我是动画"/>
     </LinearLayout>
 </LinearLayout>

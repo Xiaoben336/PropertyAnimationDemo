@@ -1,5 +1,7 @@
 package com.example.zjf.propertyanimationdemo.activity;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.os.Bundle;
@@ -27,11 +29,17 @@ public class ViewAnimationAcivity extends Activity {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 int currentValue = (Integer) animation.getAnimatedValue();
-                System.out.println(currentValue);
                 btnPropetyAnimation.getLayoutParams().width = currentValue;
                 btnPropetyAnimation.requestLayout();
             }
         });
+        animator.addListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationStart(Animator animation) {
+                System.out.println("动画开始了");
+            }
+        });
         animator.start();
     }
+
 }

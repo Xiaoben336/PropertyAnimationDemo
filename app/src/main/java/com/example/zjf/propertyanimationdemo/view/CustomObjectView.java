@@ -7,7 +7,12 @@ import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
-
+/**
+*@description 通过继承原始类，直接给类加上该属性的 get（）&  set（），从而实现给对象加上该属性的 get（）&  set（）
+*
+*@author zjf
+*@date 2018/10/8 19:48
+*/
 public class CustomObjectView extends View {
     // 设置需要用到的变量
     public static final float RADIUS = 300f;// 圆的半径 = 100
